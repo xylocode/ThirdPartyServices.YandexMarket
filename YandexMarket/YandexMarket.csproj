@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	<IncludeContentInPack>true</IncludeContentInPack>
+	<TargetFrameworks>net7.0;net6.0</TargetFrameworks>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AssemblyName>XyloCode.ThirdPartyServices.YandexMarket</AssemblyName>
+    <RootNamespace>XyloCode.ThirdPartyServices.YandexMarket</RootNamespace>
+    <Title>XyloCode.ThirdPartyServices.YandexMarket</Title>
+    <PackageId>XyloCode.ThirdPartyServices.YandexMarket</PackageId>
+    <Authors>xylocode</Authors>
+    <Copyright>Copyright (c) Sergey Korobeynikov 2023</Copyright>
+    <PackageProjectUrl>https://xylocode.com/third-party-services/yandex.market/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/xylocode/ThirdPartyServices.YandexMarket</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Description>An unofficial client library for accessing the Yandex.Market API via ApiSystem.</Description>
+    <PackageTags>Yandex.Market; ApiSystem</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <PackageIcon>LOGO.jpg</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <None Include="LICENSE.txt" Pack="true" PackagePath="" />
+	  <None Include="README.md" Pack="true" PackagePath="" />
+	  <None Include="LOGO.jpg" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+</Project>
