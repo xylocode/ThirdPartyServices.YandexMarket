@@ -43,7 +43,7 @@ namespace XyloCode.ThirdPartyServices.YandexMarket
             start:
             var query = HttpUtility.ParseQueryString(string.Empty);
 
-            var collection = Helpers.GetQuery(request);
+            var collection = Helper.GetQuery(request);
             foreach (var item in collection)
                 query[item.Key] = item.Value;
 
